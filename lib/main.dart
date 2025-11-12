@@ -5,35 +5,34 @@ void main() {
     MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
-        backgroundColor: Color(0xffF1F8FD),
+        backgroundColor: Color(0xffF1F9FE),
         appBar: AppBar(
-          backgroundColor: Color(0xffF1F8FD),
+          backgroundColor: Color(0xffF1F9FE),
           leading: Icon(Icons.arrow_back),
-          centerTitle: true,
+
           title: Row(
-            spacing: 10,
+            spacing: 14,
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              CircleAvatar(backgroundImage: AssetImage("Train.jpg")),
-              Text("care"),
+              CircleAvatar(radius: 20, backgroundColor: Colors.red),
+              Text("Well come my Shope"),
             ],
           ),
-          actions: [Icon(Icons.tune), SizedBox(width: 15)],
+          actions: [Icon(Icons.tune), SizedBox(width: 20)],
         ),
-
         body: SingleChildScrollView(
           child: Column(
-            crossAxisAlignment: CrossAxisAlignment.center,
             spacing: 10,
+
             children: [
               Container(
                 margin: EdgeInsets.all(10),
-                padding: EdgeInsets.symmetric(horizontal: 10),
+                padding: EdgeInsets.all(10),
                 height: 40,
                 width: double.infinity,
                 decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(20),
                   color: Colors.white,
-                  borderRadius: BorderRadius.circular(15),
                 ),
                 child: Row(
                   spacing: 10,
@@ -43,243 +42,127 @@ void main() {
               SingleChildScrollView(
                 scrollDirection: Axis.horizontal,
                 child: Row(
-                  spacing: 10,
+                  spacing: 14,
                   children: [
                     Container(
-                      //padding: EdgeInsets.all(10),
                       decoration: BoxDecoration(
                         color: Colors.white,
-                        borderRadius: BorderRadius.circular(20),
+                        borderRadius: BorderRadius.circular(10),
                       ),
-                      child: Text("baby & care"),
+                      child: Text("vajitable"),
                     ),
                     Container(
-                      padding: EdgeInsets.all(10),
                       decoration: BoxDecoration(
                         color: Colors.white,
-                        borderRadius: BorderRadius.circular(20),
+                        borderRadius: BorderRadius.circular(10),
                       ),
-                      child: Text("baby & care"),
+                      child: Text("vajitable"),
                     ),
                     Container(
-                      padding: EdgeInsets.all(10),
                       decoration: BoxDecoration(
                         color: Colors.white,
-                        borderRadius: BorderRadius.circular(20),
+                        borderRadius: BorderRadius.circular(10),
                       ),
-                      child: Text("baby & care"),
+                      child: Text("vajitable"),
                     ),
                     Container(
-                      padding: EdgeInsets.all(10),
                       decoration: BoxDecoration(
                         color: Colors.white,
-                        borderRadius: BorderRadius.circular(20),
+                        borderRadius: BorderRadius.circular(10),
                       ),
-                      child: Text("baby & care"),
+                      child: Text("vajitable"),
                     ),
                     Container(
-                      padding: EdgeInsets.all(10),
                       decoration: BoxDecoration(
                         color: Colors.white,
-                        borderRadius: BorderRadius.circular(20),
+                        borderRadius: BorderRadius.circular(10),
                       ),
-                      child: Text("baby & care"),
+                      child: Text("vajitable"),
                     ),
                     Container(
-                      padding: EdgeInsets.all(10),
                       decoration: BoxDecoration(
                         color: Colors.white,
-                        borderRadius: BorderRadius.circular(20),
+                        borderRadius: BorderRadius.circular(10),
                       ),
-                      child: Text("baby & care"),
+                      child: Text("vajitable"),
                     ),
                     Container(
-                      padding: EdgeInsets.all(10),
                       decoration: BoxDecoration(
                         color: Colors.white,
-                        borderRadius: BorderRadius.circular(20),
+                        borderRadius: BorderRadius.circular(10),
                       ),
-                      child: Text("baby & care"),
+                      child: Text("vajitable"),
                     ),
                     Container(
-                      padding: EdgeInsets.all(10),
                       decoration: BoxDecoration(
                         color: Colors.white,
-                        borderRadius: BorderRadius.circular(20),
+                        borderRadius: BorderRadius.circular(10),
                       ),
-                      child: Text("baby & care"),
+                      child: Text("vajitable"),
                     ),
                     Container(
-                      padding: EdgeInsets.all(10),
                       decoration: BoxDecoration(
                         color: Colors.white,
-                        borderRadius: BorderRadius.circular(20),
+                        borderRadius: BorderRadius.circular(10),
                       ),
-                      child: Text("baby & care"),
+                      child: Text("vajitable"),
                     ),
                     Container(
-                      padding: EdgeInsets.all(10),
                       decoration: BoxDecoration(
                         color: Colors.white,
-                        borderRadius: BorderRadius.circular(20),
+                        borderRadius: BorderRadius.circular(10),
                       ),
-                      child: Text("baby & care"),
+                      child: Text("vajitable"),
                     ),
                     Container(
-                      padding: EdgeInsets.all(10),
                       decoration: BoxDecoration(
                         color: Colors.white,
-                        borderRadius: BorderRadius.circular(20),
+                        borderRadius: BorderRadius.circular(10),
                       ),
-                      child: Text("baby & care"),
+                      child: Text("vajitable"),
                     ),
                     Container(
-                      padding: EdgeInsets.all(10),
                       decoration: BoxDecoration(
                         color: Colors.white,
-                        borderRadius: BorderRadius.circular(20),
+                        borderRadius: BorderRadius.circular(10),
                       ),
-                      child: Text("baby & care"),
+                      child: Text("vajitable"),
                     ),
                     Container(
-                      padding: EdgeInsets.all(10),
                       decoration: BoxDecoration(
                         color: Colors.white,
-                        borderRadius: BorderRadius.circular(20),
+                        borderRadius: BorderRadius.circular(10),
                       ),
-                      child: Text("baby & care"),
-                    ),
-                    Container(
-                      padding: EdgeInsets.all(10),
-                      decoration: BoxDecoration(
-                        color: Colors.white,
-                        borderRadius: BorderRadius.circular(20),
-                      ),
-                      child: Text("baby & care"),
-                    ),
-                    Container(
-                      padding: EdgeInsets.all(10),
-                      decoration: BoxDecoration(
-                        color: Colors.white,
-                        borderRadius: BorderRadius.circular(20),
-                      ),
-                      child: Text("baby & care"),
-                    ),
-                    Container(
-                      padding: EdgeInsets.all(10),
-                      decoration: BoxDecoration(
-                        color: Colors.white,
-                        borderRadius: BorderRadius.circular(20),
-                      ),
-                      child: Text("baby & care"),
-                    ),
-                    Container(
-                      padding: EdgeInsets.all(10),
-                      decoration: BoxDecoration(
-                        color: Colors.white,
-                        borderRadius: BorderRadius.circular(20),
-                      ),
-                      child: Text("baby & care"),
-                    ),
-                    Container(
-                      padding: EdgeInsets.all(10),
-                      decoration: BoxDecoration(
-                        color: Colors.white,
-                        borderRadius: BorderRadius.circular(20),
-                      ),
-                      child: Text("baby & care"),
-                    ),
-                    Container(
-                      padding: EdgeInsets.all(10),
-                      decoration: BoxDecoration(
-                        color: Colors.white,
-                        borderRadius: BorderRadius.circular(20),
-                      ),
-                      child: Text("baby & care"),
-                    ),
-                    Container(
-                      padding: EdgeInsets.all(10),
-                      decoration: BoxDecoration(
-                        color: Colors.white,
-                        borderRadius: BorderRadius.circular(20),
-                      ),
-                      child: Text("baby & care"),
-                    ),
-                    Container(
-                      padding: EdgeInsets.all(10),
-                      decoration: BoxDecoration(
-                        color: Colors.white,
-                        borderRadius: BorderRadius.circular(20),
-                      ),
-                      child: Text("baby & care"),
-                    ),
-                    Container(
-                      padding: EdgeInsets.all(10),
-                      decoration: BoxDecoration(
-                        color: Colors.white,
-                        borderRadius: BorderRadius.circular(20),
-                      ),
-                      child: Text("baby & care"),
-                    ),
-                    Container(
-                      padding: EdgeInsets.all(10),
-                      decoration: BoxDecoration(
-                        color: Colors.white,
-                        borderRadius: BorderRadius.circular(20),
-                      ),
-                      child: Text("baby & care"),
-                    ),
-                    Container(
-                      padding: EdgeInsets.all(10),
-                      decoration: BoxDecoration(
-                        color: Colors.white,
-                        borderRadius: BorderRadius.circular(20),
-                      ),
-                      child: Text("baby & care"),
+                      child: Text("vajitable"),
                     ),
                   ],
                 ),
               ),
+
               Row(
                 children: [
                   Stack(
-                    clipBehavior: Clip.none,
                     children: [
                       Card(
                         child: Column(
-                          crossAxisAlignment: CrossAxisAlignment.center,
                           children: [
-                            Image.network(
-                              height: 100,
-                              width: 100,
-
-                              "https://png.pngtree.com/png-vector/20240923/ourmid/pngtree-illustration-of-colorful-fresh-vegetables-and-herbs-clipart-png-image_13894822.png",
-                            ),
+                            Image.asset(width: 100, height: 100, "train.jpg"),
                             Padding(
-                              padding: const EdgeInsets.all(8),
+                              padding: const EdgeInsets.all(8.0),
                               child: Column(
                                 crossAxisAlignment: CrossAxisAlignment.start,
+
                                 children: [
-                                  Text("Natural"),
-                                  Text("vajitable"),
-                                  Text("1 kg , 4 item"),
+                                  Text("Bangladesh railway"),
+                                  Text("publice train"),
+                                  Text("dinaj to dhaka"),
                                   Row(
                                     mainAxisSize: MainAxisSize.min,
                                     spacing: 110,
+                                    // mainAxisAlignment: MainAxisAlignment.spaceBetween,
                                     children: [
-                                      Text(" \$4"),
-                                      Container(
-                                        padding: EdgeInsets.all(2),
-                                        decoration: BoxDecoration(
-                                          color: Colors.green,
-                                          borderRadius: BorderRadius.circular(
-                                            10,
-                                          ),
-                                        ),
-                                        child: Icon(
-                                          Icons.shopping_cart_checkout,
-                                        ),
-                                      ),
+                                      Text("price\$2, "),
+                                      Icon(Icons.hide_source),
                                     ],
                                   ),
                                 ],
@@ -288,51 +171,36 @@ void main() {
                           ],
                         ),
                       ),
+
                       Positioned(
-                        top: 10,
+                        top: 20,
                         right: 20,
-                        child: Icon(Icons.favorite_border),
+                        child: Icon(Icons.favorite_border, size: 23),
                       ),
                     ],
                   ),
                   Stack(
-                    clipBehavior: Clip.none,
                     children: [
                       Card(
                         child: Column(
-                          crossAxisAlignment: CrossAxisAlignment.center,
                           children: [
-                            Image.network(
-                              height: 100,
-                              width: 100,
-
-                              "https://png.pngtree.com/png-vector/20240923/ourmid/pngtree-illustration-of-colorful-fresh-vegetables-and-herbs-clipart-png-image_13894822.png",
-                            ),
+                            Image.asset(width: 100, height: 100, "train.jpg"),
                             Padding(
-                              padding: const EdgeInsets.all(8),
+                              padding: const EdgeInsets.all(8.0),
                               child: Column(
                                 crossAxisAlignment: CrossAxisAlignment.start,
+
                                 children: [
-                                  Text("Natural"),
-                                  Text("vajitable"),
-                                  Text("1 kg , 4 item"),
+                                  Text("Bangladesh railway"),
+                                  Text("publice train"),
+                                  Text("dinaj to dhaka"),
                                   Row(
                                     mainAxisSize: MainAxisSize.min,
                                     spacing: 110,
+                                    // mainAxisAlignment: MainAxisAlignment.spaceBetween,
                                     children: [
-                                      Text(" \$4"),
-                                      Container(
-                                        padding: EdgeInsets.all(2),
-                                        decoration: BoxDecoration(
-                                          color: Colors.green,
-                                          borderRadius: BorderRadius.circular(
-                                            10,
-                                          ),
-                                        ),
-                                        child: Icon(
-                                          Icons.shopping_cart_checkout,
-                                        ),
-                                      ),
+                                      Text("price\$2, "),
+                                      Icon(Icons.hide_source),
                                     ],
                                   ),
                                 ],
@@ -341,10 +209,11 @@ void main() {
                           ],
                         ),
                       ),
+
                       Positioned(
-                        top: 10,
+                        top: 20,
                         right: 20,
-                        child: Icon(Icons.favorite_border),
+                        child: Icon(Icons.favorite_border, size: 23),
                       ),
                     ],
                   ),
@@ -353,43 +222,27 @@ void main() {
               Row(
                 children: [
                   Stack(
-                    clipBehavior: Clip.none,
                     children: [
                       Card(
                         child: Column(
-                          crossAxisAlignment: CrossAxisAlignment.center,
                           children: [
-                            Image.network(
-                              height: 100,
-                              width: 100,
-
-                              "https://png.pngtree.com/png-vector/20240923/ourmid/pngtree-illustration-of-colorful-fresh-vegetables-and-herbs-clipart-png-image_13894822.png",
-                            ),
+                            Image.asset(width: 100, height: 100, "train.jpg"),
                             Padding(
-                              padding: const EdgeInsets.all(8),
+                              padding: const EdgeInsets.all(8.0),
                               child: Column(
                                 crossAxisAlignment: CrossAxisAlignment.start,
+
                                 children: [
-                                  Text("Natural"),
-                                  Text("vajitable"),
-                                  Text("1 kg , 4 item"),
+                                  Text("Bangladesh railway"),
+                                  Text("publice train"),
+                                  Text("dinaj to dhaka"),
                                   Row(
                                     mainAxisSize: MainAxisSize.min,
                                     spacing: 110,
+                                    // mainAxisAlignment: MainAxisAlignment.spaceBetween,
                                     children: [
-                                      Text(" \$4"),
-                                      Container(
-                                        padding: EdgeInsets.all(2),
-                                        decoration: BoxDecoration(
-                                          color: Colors.green,
-                                          borderRadius: BorderRadius.circular(
-                                            10,
-                                          ),
-                                        ),
-                                        child: Icon(
-                                          Icons.shopping_cart_checkout,
-                                        ),
-                                      ),
+                                      Text("price\$2, "),
+                                      Icon(Icons.hide_source),
                                     ],
                                   ),
                                 ],
@@ -398,51 +251,36 @@ void main() {
                           ],
                         ),
                       ),
+
                       Positioned(
-                        top: 10,
+                        top: 20,
                         right: 20,
-                        child: Icon(Icons.favorite_border),
+                        child: Icon(Icons.favorite_border, size: 23),
                       ),
                     ],
                   ),
                   Stack(
-                    clipBehavior: Clip.none,
                     children: [
                       Card(
                         child: Column(
-                          crossAxisAlignment: CrossAxisAlignment.center,
                           children: [
-                            Image.network(
-                              height: 100,
-                              width: 100,
-
-                              "https://png.pngtree.com/png-vector/20240923/ourmid/pngtree-illustration-of-colorful-fresh-vegetables-and-herbs-clipart-png-image_13894822.png",
-                            ),
+                            Image.asset(width: 100, height: 100, "train.jpg"),
                             Padding(
-                              padding: const EdgeInsets.all(8),
+                              padding: const EdgeInsets.all(8.0),
                               child: Column(
                                 crossAxisAlignment: CrossAxisAlignment.start,
+
                                 children: [
-                                  Text("Natural"),
-                                  Text("vajitable"),
-                                  Text("1 kg , 4 item"),
+                                  Text("Bangladesh railway"),
+                                  Text("publice train"),
+                                  Text("dinaj to dhaka"),
                                   Row(
                                     mainAxisSize: MainAxisSize.min,
                                     spacing: 110,
+                                    // mainAxisAlignment: MainAxisAlignment.spaceBetween,
                                     children: [
-                                      Text(" \$4"),
-                                      Container(
-                                        padding: EdgeInsets.all(2),
-                                        decoration: BoxDecoration(
-                                          color: Colors.green,
-                                          borderRadius: BorderRadius.circular(
-                                            10,
-                                          ),
-                                        ),
-                                        child: Icon(
-                                          Icons.shopping_cart_checkout,
-                                        ),
-                                      ),
+                                      Text("price\$2, "),
+                                      Icon(Icons.hide_source),
                                     ],
                                   ),
                                 ],
@@ -451,10 +289,11 @@ void main() {
                           ],
                         ),
                       ),
+
                       Positioned(
-                        top: 10,
+                        top: 20,
                         right: 20,
-                        child: Icon(Icons.favorite_border),
+                        child: Icon(Icons.favorite_border, size: 23),
                       ),
                     ],
                   ),
@@ -463,43 +302,27 @@ void main() {
               Row(
                 children: [
                   Stack(
-                    clipBehavior: Clip.none,
                     children: [
                       Card(
                         child: Column(
-                          crossAxisAlignment: CrossAxisAlignment.center,
                           children: [
-                            Image.network(
-                              height: 100,
-                              width: 100,
-
-                              "https://png.pngtree.com/png-vector/20240923/ourmid/pngtree-illustration-of-colorful-fresh-vegetables-and-herbs-clipart-png-image_13894822.png",
-                            ),
+                            Image.asset(width: 100, height: 100, "train.jpg"),
                             Padding(
-                              padding: const EdgeInsets.all(8),
+                              padding: const EdgeInsets.all(8.0),
                               child: Column(
                                 crossAxisAlignment: CrossAxisAlignment.start,
+
                                 children: [
-                                  Text("Natural"),
-                                  Text("vajitable"),
-                                  Text("1 kg , 4 item"),
+                                  Text("Bangladesh railway"),
+                                  Text("publice train"),
+                                  Text("dinaj to dhaka"),
                                   Row(
                                     mainAxisSize: MainAxisSize.min,
                                     spacing: 110,
+                                    // mainAxisAlignment: MainAxisAlignment.spaceBetween,
                                     children: [
-                                      Text(" \$4"),
-                                      Container(
-                                        padding: EdgeInsets.all(2),
-                                        decoration: BoxDecoration(
-                                          color: Colors.green,
-                                          borderRadius: BorderRadius.circular(
-                                            10,
-                                          ),
-                                        ),
-                                        child: Icon(
-                                          Icons.shopping_cart_checkout,
-                                        ),
-                                      ),
+                                      Text("price\$2, "),
+                                      Icon(Icons.hide_source),
                                     ],
                                   ),
                                 ],
@@ -508,51 +331,36 @@ void main() {
                           ],
                         ),
                       ),
+
                       Positioned(
-                        top: 10,
+                        top: 20,
                         right: 20,
-                        child: Icon(Icons.favorite_border),
+                        child: Icon(Icons.favorite_border, size: 23),
                       ),
                     ],
                   ),
                   Stack(
-                    clipBehavior: Clip.none,
                     children: [
                       Card(
                         child: Column(
-                          crossAxisAlignment: CrossAxisAlignment.center,
                           children: [
-                            Image.network(
-                              height: 100,
-                              width: 100,
-
-                              "https://png.pngtree.com/png-vector/20240923/ourmid/pngtree-illustration-of-colorful-fresh-vegetables-and-herbs-clipart-png-image_13894822.png",
-                            ),
+                            Image.asset(width: 100, height: 100, "train.jpg"),
                             Padding(
-                              padding: const EdgeInsets.all(8),
+                              padding: const EdgeInsets.all(8.0),
                               child: Column(
                                 crossAxisAlignment: CrossAxisAlignment.start,
+
                                 children: [
-                                  Text("Natural"),
-                                  Text("vajitable"),
-                                  Text("1 kg , 4 item"),
+                                  Text("Bangladesh railway"),
+                                  Text("publice train"),
+                                  Text("dinaj to dhaka"),
                                   Row(
                                     mainAxisSize: MainAxisSize.min,
                                     spacing: 110,
+                                    // mainAxisAlignment: MainAxisAlignment.spaceBetween,
                                     children: [
-                                      Text(" \$4"),
-                                      Container(
-                                        padding: EdgeInsets.all(2),
-                                        decoration: BoxDecoration(
-                                          color: Colors.green,
-                                          borderRadius: BorderRadius.circular(
-                                            10,
-                                          ),
-                                        ),
-                                        child: Icon(
-                                          Icons.shopping_cart_checkout,
-                                        ),
-                                      ),
+                                      Text("price\$2, "),
+                                      Icon(Icons.hide_source),
                                     ],
                                   ),
                                 ],
@@ -561,10 +369,11 @@ void main() {
                           ],
                         ),
                       ),
+
                       Positioned(
-                        top: 10,
+                        top: 20,
                         right: 20,
-                        child: Icon(Icons.favorite_border),
+                        child: Icon(Icons.favorite_border, size: 23),
                       ),
                     ],
                   ),
@@ -573,43 +382,27 @@ void main() {
               Row(
                 children: [
                   Stack(
-                    clipBehavior: Clip.none,
                     children: [
                       Card(
                         child: Column(
-                          crossAxisAlignment: CrossAxisAlignment.center,
                           children: [
-                            Image.network(
-                              height: 100,
-                              width: 100,
-
-                              "https://png.pngtree.com/png-vector/20240923/ourmid/pngtree-illustration-of-colorful-fresh-vegetables-and-herbs-clipart-png-image_13894822.png",
-                            ),
+                            Image.asset(width: 100, height: 100, "train.jpg"),
                             Padding(
-                              padding: const EdgeInsets.all(8),
+                              padding: const EdgeInsets.all(8.0),
                               child: Column(
                                 crossAxisAlignment: CrossAxisAlignment.start,
+
                                 children: [
-                                  Text("Natural"),
-                                  Text("vajitable"),
-                                  Text("1 kg , 4 item"),
+                                  Text("Bangladesh railway"),
+                                  Text("publice train"),
+                                  Text("dinaj to dhaka"),
                                   Row(
                                     mainAxisSize: MainAxisSize.min,
                                     spacing: 110,
+                                    // mainAxisAlignment: MainAxisAlignment.spaceBetween,
                                     children: [
-                                      Text(" \$4"),
-                                      Container(
-                                        padding: EdgeInsets.all(2),
-                                        decoration: BoxDecoration(
-                                          color: Colors.green,
-                                          borderRadius: BorderRadius.circular(
-                                            10,
-                                          ),
-                                        ),
-                                        child: Icon(
-                                          Icons.shopping_cart_checkout,
-                                        ),
-                                      ),
+                                      Text("price\$2, "),
+                                      Icon(Icons.hide_source),
                                     ],
                                   ),
                                 ],
@@ -618,51 +411,36 @@ void main() {
                           ],
                         ),
                       ),
+
                       Positioned(
-                        top: 10,
+                        top: 20,
                         right: 20,
-                        child: Icon(Icons.favorite_border),
+                        child: Icon(Icons.favorite_border, size: 23),
                       ),
                     ],
                   ),
                   Stack(
-                    clipBehavior: Clip.none,
                     children: [
                       Card(
                         child: Column(
-                          crossAxisAlignment: CrossAxisAlignment.center,
                           children: [
-                            Image.network(
-                              height: 100,
-                              width: 100,
-
-                              "https://png.pngtree.com/png-vector/20240923/ourmid/pngtree-illustration-of-colorful-fresh-vegetables-and-herbs-clipart-png-image_13894822.png",
-                            ),
+                            Image.asset(width: 100, height: 100, "train.jpg"),
                             Padding(
-                              padding: const EdgeInsets.all(8),
+                              padding: const EdgeInsets.all(8.0),
                               child: Column(
                                 crossAxisAlignment: CrossAxisAlignment.start,
+
                                 children: [
-                                  Text("Natural"),
-                                  Text("vajitable"),
-                                  Text("1 kg , 4 item"),
+                                  Text("Bangladesh railway"),
+                                  Text("publice train"),
+                                  Text("dinaj to dhaka"),
                                   Row(
                                     mainAxisSize: MainAxisSize.min,
                                     spacing: 110,
+                                    // mainAxisAlignment: MainAxisAlignment.spaceBetween,
                                     children: [
-                                      Text(" \$4"),
-                                      Container(
-                                        padding: EdgeInsets.all(2),
-                                        decoration: BoxDecoration(
-                                          color: Colors.green,
-                                          borderRadius: BorderRadius.circular(
-                                            10,
-                                          ),
-                                        ),
-                                        child: Icon(
-                                          Icons.shopping_cart_checkout,
-                                        ),
-                                      ),
+                                      Text("price\$2, "),
+                                      Icon(Icons.hide_source),
                                     ],
                                   ),
                                 ],
@@ -671,10 +449,11 @@ void main() {
                           ],
                         ),
                       ),
+
                       Positioned(
-                        top: 10,
+                        top: 20,
                         right: 20,
-                        child: Icon(Icons.favorite_border),
+                        child: Icon(Icons.favorite_border, size: 23),
                       ),
                     ],
                   ),
@@ -683,43 +462,27 @@ void main() {
               Row(
                 children: [
                   Stack(
-                    clipBehavior: Clip.none,
                     children: [
                       Card(
                         child: Column(
-                          crossAxisAlignment: CrossAxisAlignment.center,
                           children: [
-                            Image.network(
-                              height: 100,
-                              width: 100,
-
-                              "https://png.pngtree.com/png-vector/20240923/ourmid/pngtree-illustration-of-colorful-fresh-vegetables-and-herbs-clipart-png-image_13894822.png",
-                            ),
+                            Image.asset(width: 100, height: 100, "train.jpg"),
                             Padding(
-                              padding: const EdgeInsets.all(8),
+                              padding: const EdgeInsets.all(8.0),
                               child: Column(
                                 crossAxisAlignment: CrossAxisAlignment.start,
+
                                 children: [
-                                  Text("Natural"),
-                                  Text("vajitable"),
-                                  Text("1 kg , 4 item"),
+                                  Text("Bangladesh railway"),
+                                  Text("publice train"),
+                                  Text("dinaj to dhaka"),
                                   Row(
                                     mainAxisSize: MainAxisSize.min,
                                     spacing: 110,
+                                    // mainAxisAlignment: MainAxisAlignment.spaceBetween,
                                     children: [
-                                      Text(" \$4"),
-                                      Container(
-                                        padding: EdgeInsets.all(2),
-                                        decoration: BoxDecoration(
-                                          color: Colors.green,
-                                          borderRadius: BorderRadius.circular(
-                                            10,
-                                          ),
-                                        ),
-                                        child: Icon(
-                                          Icons.shopping_cart_checkout,
-                                        ),
-                                      ),
+                                      Text("price\$2, "),
+                                      Icon(Icons.hide_source),
                                     ],
                                   ),
                                 ],
@@ -728,51 +491,36 @@ void main() {
                           ],
                         ),
                       ),
+
                       Positioned(
-                        top: 10,
+                        top: 20,
                         right: 20,
-                        child: Icon(Icons.favorite_border),
+                        child: Icon(Icons.favorite_border, size: 23),
                       ),
                     ],
                   ),
                   Stack(
-                    clipBehavior: Clip.none,
                     children: [
                       Card(
                         child: Column(
-                          crossAxisAlignment: CrossAxisAlignment.center,
                           children: [
-                            Image.network(
-                              height: 100,
-                              width: 100,
-
-                              "https://png.pngtree.com/png-vector/20240923/ourmid/pngtree-illustration-of-colorful-fresh-vegetables-and-herbs-clipart-png-image_13894822.png",
-                            ),
+                            Image.asset(width: 100, height: 100, "train.jpg"),
                             Padding(
-                              padding: const EdgeInsets.all(8),
+                              padding: const EdgeInsets.all(8.0),
                               child: Column(
                                 crossAxisAlignment: CrossAxisAlignment.start,
+
                                 children: [
-                                  Text("Natural"),
-                                  Text("vajitable"),
-                                  Text("1 kg , 4 item"),
+                                  Text("Bangladesh railway"),
+                                  Text("publice train"),
+                                  Text("dinaj to dhaka"),
                                   Row(
                                     mainAxisSize: MainAxisSize.min,
                                     spacing: 110,
+                                    // mainAxisAlignment: MainAxisAlignment.spaceBetween,
                                     children: [
-                                      Text(" \$4"),
-                                      Container(
-                                        padding: EdgeInsets.all(2),
-                                        decoration: BoxDecoration(
-                                          color: Colors.green,
-                                          borderRadius: BorderRadius.circular(
-                                            10,
-                                          ),
-                                        ),
-                                        child: Icon(
-                                          Icons.shopping_cart_checkout,
-                                        ),
-                                      ),
+                                      Text("price\$2, "),
+                                      Icon(Icons.hide_source),
                                     ],
                                   ),
                                 ],
@@ -781,15 +529,974 @@ void main() {
                           ],
                         ),
                       ),
+
                       Positioned(
-                        top: 10,
+                        top: 20,
                         right: 20,
-                        child: Icon(Icons.favorite_border),
+                        child: Icon(Icons.favorite_border, size: 23),
                       ),
                     ],
                   ),
                 ],
               ),
+              Row(
+                children: [
+                  Stack(
+                    children: [
+                      Card(
+                        child: Column(
+                          children: [
+                            Image.asset(width: 100, height: 100, "train.jpg"),
+                            Padding(
+                              padding: const EdgeInsets.all(8.0),
+                              child: Column(
+                                crossAxisAlignment: CrossAxisAlignment.start,
+
+                                children: [
+                                  Text("Bangladesh railway"),
+                                  Text("publice train"),
+                                  Text("dinaj to dhaka"),
+                                  Row(
+                                    mainAxisSize: MainAxisSize.min,
+                                    spacing: 110,
+                                    // mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                    children: [
+                                      Text("price\$2, "),
+                                      Icon(Icons.hide_source),
+                                    ],
+                                  ),
+                                ],
+                              ),
+                            ),
+                          ],
+                        ),
+                      ),
+
+                      Positioned(
+                        top: 20,
+                        right: 20,
+                        child: Icon(Icons.favorite_border, size: 23),
+                      ),
+                    ],
+                  ),
+                  Stack(
+                    children: [
+                      Card(
+                        child: Column(
+                          children: [
+                            Image.asset(width: 100, height: 100, "train.jpg"),
+                            Padding(
+                              padding: const EdgeInsets.all(8.0),
+                              child: Column(
+                                crossAxisAlignment: CrossAxisAlignment.start,
+
+                                children: [
+                                  Text("Bangladesh railway"),
+                                  Text("publice train"),
+                                  Text("dinaj to dhaka"),
+                                  Row(
+                                    mainAxisSize: MainAxisSize.min,
+                                    spacing: 110,
+                                    // mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                    children: [
+                                      Text("price\$2, "),
+                                      Icon(Icons.hide_source),
+                                    ],
+                                  ),
+                                ],
+                              ),
+                            ),
+                          ],
+                        ),
+                      ),
+
+                      Positioned(
+                        top: 20,
+                        right: 20,
+                        child: Icon(Icons.favorite_border, size: 23),
+                      ),
+                    ],
+                  ),
+                ],
+              ),
+              Row(
+                children: [
+                  Stack(
+                    children: [
+                      Card(
+                        child: Column(
+                          children: [
+                            Image.asset(width: 100, height: 100, "train.jpg"),
+                            Padding(
+                              padding: const EdgeInsets.all(8.0),
+                              child: Column(
+                                crossAxisAlignment: CrossAxisAlignment.start,
+
+                                children: [
+                                  Text("Bangladesh railway"),
+                                  Text("publice train"),
+                                  Text("dinaj to dhaka"),
+                                  Row(
+                                    mainAxisSize: MainAxisSize.min,
+                                    spacing: 110,
+                                    // mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                    children: [
+                                      Text("price\$2, "),
+                                      Icon(Icons.hide_source),
+                                    ],
+                                  ),
+                                ],
+                              ),
+                            ),
+                          ],
+                        ),
+                      ),
+
+                      Positioned(
+                        top: 20,
+                        right: 20,
+                        child: Icon(Icons.favorite_border, size: 23),
+                      ),
+                    ],
+                  ),
+                  Stack(
+                    children: [
+                      Card(
+                        child: Column(
+                          children: [
+                            Image.asset(width: 100, height: 100, "train.jpg"),
+                            Padding(
+                              padding: const EdgeInsets.all(8.0),
+                              child: Column(
+                                crossAxisAlignment: CrossAxisAlignment.start,
+
+                                children: [
+                                  Text("Bangladesh railway"),
+                                  Text("publice train"),
+                                  Text("dinaj to dhaka"),
+                                  Row(
+                                    mainAxisSize: MainAxisSize.min,
+                                    spacing: 110,
+                                    // mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                    children: [
+                                      Text("price\$2, "),
+                                      Icon(Icons.hide_source),
+                                    ],
+                                  ),
+                                ],
+                              ),
+                            ),
+                          ],
+                        ),
+                      ),
+
+                      Positioned(
+                        top: 20,
+                        right: 20,
+                        child: Icon(Icons.favorite_border, size: 23),
+                      ),
+                    ],
+                  ),
+                ],
+              ),
+              Row(
+                children: [
+                  Stack(
+                    children: [
+                      Card(
+                        child: Column(
+                          children: [
+                            Image.asset(width: 100, height: 100, "train.jpg"),
+                            Padding(
+                              padding: const EdgeInsets.all(8.0),
+                              child: Column(
+                                crossAxisAlignment: CrossAxisAlignment.start,
+
+                                children: [
+                                  Text("Bangladesh railway"),
+                                  Text("publice train"),
+                                  Text("dinaj to dhaka"),
+                                  Row(
+                                    mainAxisSize: MainAxisSize.min,
+                                    spacing: 110,
+                                    // mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                    children: [
+                                      Text("price\$2, "),
+                                      Icon(Icons.hide_source),
+                                    ],
+                                  ),
+                                ],
+                              ),
+                            ),
+                          ],
+                        ),
+                      ),
+
+                      Positioned(
+                        top: 20,
+                        right: 20,
+                        child: Icon(Icons.favorite_border, size: 23),
+                      ),
+                    ],
+                  ),
+                  Stack(
+                    children: [
+                      Card(
+                        child: Column(
+                          children: [
+                            Image.asset(width: 100, height: 100, "train.jpg"),
+                            Padding(
+                              padding: const EdgeInsets.all(8.0),
+                              child: Column(
+                                crossAxisAlignment: CrossAxisAlignment.start,
+
+                                children: [
+                                  Text("Bangladesh railway"),
+                                  Text("publice train"),
+                                  Text("dinaj to dhaka"),
+                                  Row(
+                                    mainAxisSize: MainAxisSize.min,
+                                    spacing: 110,
+                                    // mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                    children: [
+                                      Text("price\$2, "),
+                                      Icon(Icons.hide_source),
+                                    ],
+                                  ),
+                                ],
+                              ),
+                            ),
+                          ],
+                        ),
+                      ),
+
+                      Positioned(
+                        top: 20,
+                        right: 20,
+                        child: Icon(Icons.favorite_border, size: 23),
+                      ),
+                    ],
+                  ),
+                ],
+              ),
+              Row(
+                children: [
+                  Stack(
+                    children: [
+                      Card(
+                        child: Column(
+                          children: [
+                            Image.asset(width: 100, height: 100, "train.jpg"),
+                            Padding(
+                              padding: const EdgeInsets.all(8.0),
+                              child: Column(
+                                crossAxisAlignment: CrossAxisAlignment.start,
+
+                                children: [
+                                  Text("Bangladesh railway"),
+                                  Text("publice train"),
+                                  Text("dinaj to dhaka"),
+                                  Row(
+                                    mainAxisSize: MainAxisSize.min,
+                                    spacing: 110,
+                                    // mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                    children: [
+                                      Text("price\$2, "),
+                                      Icon(Icons.hide_source),
+                                    ],
+                                  ),
+                                ],
+                              ),
+                            ),
+                          ],
+                        ),
+                      ),
+
+                      Positioned(
+                        top: 20,
+                        right: 20,
+                        child: Icon(Icons.favorite_border, size: 23),
+                      ),
+                    ],
+                  ),
+                  Stack(
+                    children: [
+                      Card(
+                        child: Column(
+                          children: [
+                            Image.asset(width: 100, height: 100, "train.jpg"),
+                            Padding(
+                              padding: const EdgeInsets.all(8.0),
+                              child: Column(
+                                crossAxisAlignment: CrossAxisAlignment.start,
+
+                                children: [
+                                  Text("Bangladesh railway"),
+                                  Text("publice train"),
+                                  Text("dinaj to dhaka"),
+                                  Row(
+                                    mainAxisSize: MainAxisSize.min,
+                                    spacing: 110,
+                                    // mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                    children: [
+                                      Text("price\$2, "),
+                                      Icon(Icons.hide_source),
+                                    ],
+                                  ),
+                                ],
+                              ),
+                            ),
+                          ],
+                        ),
+                      ),
+
+                      Positioned(
+                        top: 20,
+                        right: 20,
+                        child: Icon(Icons.favorite_border, size: 23),
+                      ),
+                    ],
+                  ),
+                ],
+              ),
+              Row(
+                children: [
+                  Stack(
+                    children: [
+                      Card(
+                        child: Column(
+                          children: [
+                            Image.asset(width: 100, height: 100, "train.jpg"),
+                            Padding(
+                              padding: const EdgeInsets.all(8.0),
+                              child: Column(
+                                crossAxisAlignment: CrossAxisAlignment.start,
+
+                                children: [
+                                  Text("Bangladesh railway"),
+                                  Text("publice train"),
+                                  Text("dinaj to dhaka"),
+                                  Row(
+                                    mainAxisSize: MainAxisSize.min,
+                                    spacing: 110,
+                                    // mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                    children: [
+                                      Text("price\$2, "),
+                                      Icon(Icons.hide_source),
+                                    ],
+                                  ),
+                                ],
+                              ),
+                            ),
+                          ],
+                        ),
+                      ),
+
+                      Positioned(
+                        top: 20,
+                        right: 20,
+                        child: Icon(Icons.favorite_border, size: 23),
+                      ),
+                    ],
+                  ),
+                  Stack(
+                    children: [
+                      Card(
+                        child: Column(
+                          children: [
+                            Image.asset(width: 100, height: 100, "train.jpg"),
+                            Padding(
+                              padding: const EdgeInsets.all(8.0),
+                              child: Column(
+                                crossAxisAlignment: CrossAxisAlignment.start,
+
+                                children: [
+                                  Text("Bangladesh railway"),
+                                  Text("publice train"),
+                                  Text("dinaj to dhaka"),
+                                  Row(
+                                    mainAxisSize: MainAxisSize.min,
+                                    spacing: 110,
+                                    // mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                    children: [
+                                      Text("price\$2, "),
+                                      Icon(Icons.hide_source),
+                                    ],
+                                  ),
+                                ],
+                              ),
+                            ),
+                          ],
+                        ),
+                      ),
+
+                      Positioned(
+                        top: 20,
+                        right: 20,
+                        child: Icon(Icons.favorite_border, size: 23),
+                      ),
+                    ],
+                  ),
+                ],
+              ),
+              Row(
+                children: [
+                  Stack(
+                    children: [
+                      Card(
+                        child: Column(
+                          children: [
+                            Image.asset(width: 100, height: 100, "train.jpg"),
+                            Padding(
+                              padding: const EdgeInsets.all(8.0),
+                              child: Column(
+                                crossAxisAlignment: CrossAxisAlignment.start,
+
+                                children: [
+                                  Text("Bangladesh railway"),
+                                  Text("publice train"),
+                                  Text("dinaj to dhaka"),
+                                  Row(
+                                    mainAxisSize: MainAxisSize.min,
+                                    spacing: 110,
+                                    // mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                    children: [
+                                      Text("price\$2, "),
+                                      Icon(Icons.hide_source),
+                                    ],
+                                  ),
+                                ],
+                              ),
+                            ),
+                          ],
+                        ),
+                      ),
+
+                      Positioned(
+                        top: 20,
+                        right: 20,
+                        child: Icon(Icons.favorite_border, size: 23),
+                      ),
+                    ],
+                  ),
+                  Stack(
+                    children: [
+                      Card(
+                        child: Column(
+                          children: [
+                            Image.asset(width: 100, height: 100, "train.jpg"),
+                            Padding(
+                              padding: const EdgeInsets.all(8.0),
+                              child: Column(
+                                crossAxisAlignment: CrossAxisAlignment.start,
+
+                                children: [
+                                  Text("Bangladesh railway"),
+                                  Text("publice train"),
+                                  Text("dinaj to dhaka"),
+                                  Row(
+                                    mainAxisSize: MainAxisSize.min,
+                                    spacing: 110,
+                                    // mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                    children: [
+                                      Text("price\$2, "),
+                                      Icon(Icons.hide_source),
+                                    ],
+                                  ),
+                                ],
+                              ),
+                            ),
+                          ],
+                        ),
+                      ),
+
+                      Positioned(
+                        top: 20,
+                        right: 20,
+                        child: Icon(Icons.favorite_border, size: 23),
+                      ),
+                    ],
+                  ),
+                ],
+              ),Row(
+                children: [
+                  Stack(
+                    children: [
+                      Card(
+                        child: Column(
+                          children: [
+                            Image.asset(width: 100, height: 100, "train.jpg"),
+                            Padding(
+                              padding: const EdgeInsets.all(8.0),
+                              child: Column(
+                                crossAxisAlignment: CrossAxisAlignment.start,
+
+                                children: [
+                                  Text("Bangladesh railway"),
+                                  Text("publice train"),
+                                  Text("dinaj to dhaka"),
+                                  Row(
+                                    mainAxisSize: MainAxisSize.min,
+                                    spacing: 110,
+                                    // mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                    children: [
+                                      Text("price\$2, "),
+                                      Icon(Icons.hide_source),
+                                    ],
+                                  ),
+                                ],
+                              ),
+                            ),
+                          ],
+                        ),
+                      ),
+
+                      Positioned(
+                        top: 20,
+                        right: 20,
+                        child: Icon(Icons.favorite_border, size: 23),
+                      ),
+                    ],
+                  ),
+                  Stack(
+                    children: [
+                      Card(
+                        child: Column(
+                          children: [
+                            Image.asset(width: 100, height: 100, "train.jpg"),
+                            Padding(
+                              padding: const EdgeInsets.all(8.0),
+                              child: Column(
+                                crossAxisAlignment: CrossAxisAlignment.start,
+
+                                children: [
+                                  Text("Bangladesh railway"),
+                                  Text("publice train"),
+                                  Text("dinaj to dhaka"),
+                                  Row(
+                                    mainAxisSize: MainAxisSize.min,
+                                    spacing: 110,
+                                    // mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                    children: [
+                                      Text("price\$2, "),
+                                      Icon(Icons.hide_source),
+                                    ],
+                                  ),
+                                ],
+                              ),
+                            ),
+                          ],
+                        ),
+                      ),
+
+                      Positioned(
+                        top: 20,
+                        right: 20,
+                        child: Icon(Icons.favorite_border, size: 23),
+                      ),
+                    ],
+                  ),
+                ],
+              ),Row(
+                children: [
+                  Stack(
+                    children: [
+                      Card(
+                        child: Column(
+                          children: [
+                            Image.asset(width: 100, height: 100, "train.jpg"),
+                            Padding(
+                              padding: const EdgeInsets.all(8.0),
+                              child: Column(
+                                crossAxisAlignment: CrossAxisAlignment.start,
+
+                                children: [
+                                  Text("Bangladesh railway"),
+                                  Text("publice train"),
+                                  Text("dinaj to dhaka"),
+                                  Row(
+                                    mainAxisSize: MainAxisSize.min,
+                                    spacing: 110,
+                                    // mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                    children: [
+                                      Text("price\$2, "),
+                                      Icon(Icons.hide_source),
+                                    ],
+                                  ),
+                                ],
+                              ),
+                            ),
+                          ],
+                        ),
+                      ),
+
+                      Positioned(
+                        top: 20,
+                        right: 20,
+                        child: Icon(Icons.favorite_border, size: 23),
+                      ),
+                    ],
+                  ),
+                  Stack(
+                    children: [
+                      Card(
+                        child: Column(
+                          children: [
+                            Image.asset(width: 100, height: 100, "train.jpg"),
+                            Padding(
+                              padding: const EdgeInsets.all(8.0),
+                              child: Column(
+                                crossAxisAlignment: CrossAxisAlignment.start,
+
+                                children: [
+                                  Text("Bangladesh railway"),
+                                  Text("publice train"),
+                                  Text("dinaj to dhaka"),
+                                  Row(
+                                    mainAxisSize: MainAxisSize.min,
+                                    spacing: 110,
+                                    // mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                    children: [
+                                      Text("price\$2, "),
+                                      Icon(Icons.hide_source),
+                                    ],
+                                  ),
+                                ],
+                              ),
+                            ),
+                          ],
+                        ),
+                      ),
+
+                      Positioned(
+                        top: 20,
+                        right: 20,
+                        child: Icon(Icons.favorite_border, size: 23),
+                      ),
+                    ],
+                  ),
+                ],
+              ),Row(
+                children: [
+                  Stack(
+                    children: [
+                      Card(
+                        child: Column(
+                          children: [
+                            Image.asset(width: 100, height: 100, "train.jpg"),
+                            Padding(
+                              padding: const EdgeInsets.all(8.0),
+                              child: Column(
+                                crossAxisAlignment: CrossAxisAlignment.start,
+
+                                children: [
+                                  Text("Bangladesh railway"),
+                                  Text("publice train"),
+                                  Text("dinaj to dhaka"),
+                                  Row(
+                                    mainAxisSize: MainAxisSize.min,
+                                    spacing: 110,
+                                    // mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                    children: [
+                                      Text("price\$2, "),
+                                      Icon(Icons.hide_source),
+                                    ],
+                                  ),
+                                ],
+                              ),
+                            ),
+                          ],
+                        ),
+                      ),
+
+                      Positioned(
+                        top: 20,
+                        right: 20,
+                        child: Icon(Icons.favorite_border, size: 23),
+                      ),
+                    ],
+                  ),
+                  Stack(
+                    children: [
+                      Card(
+                        child: Column(
+                          children: [
+                            Image.asset(width: 100, height: 100, "train.jpg"),
+                            Padding(
+                              padding: const EdgeInsets.all(8.0),
+                              child: Column(
+                                crossAxisAlignment: CrossAxisAlignment.start,
+
+                                children: [
+                                  Text("Bangladesh railway"),
+                                  Text("publice train"),
+                                  Text("dinaj to dhaka"),
+                                  Row(
+                                    mainAxisSize: MainAxisSize.min,
+                                    spacing: 110,
+                                    // mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                    children: [
+                                      Text("price\$2, "),
+                                      Icon(Icons.hide_source),
+                                    ],
+                                  ),
+                                ],
+                              ),
+                            ),
+                          ],
+                        ),
+                      ),
+
+                      Positioned(
+                        top: 20,
+                        right: 20,
+                        child: Icon(Icons.favorite_border, size: 23),
+                      ),
+                    ],
+                  ),
+                ],
+              ),Row(
+                children: [
+                  Stack(
+                    children: [
+                      Card(
+                        child: Column(
+                          children: [
+                            Image.asset(width: 100, height: 100, "train.jpg"),
+                            Padding(
+                              padding: const EdgeInsets.all(8.0),
+                              child: Column(
+                                crossAxisAlignment: CrossAxisAlignment.start,
+
+                                children: [
+                                  Text("Bangladesh railway"),
+                                  Text("publice train"),
+                                  Text("dinaj to dhaka"),
+                                  Row(
+                                    mainAxisSize: MainAxisSize.min,
+                                    spacing: 110,
+                                    // mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                    children: [
+                                      Text("price\$2, "),
+                                      Icon(Icons.hide_source),
+                                    ],
+                                  ),
+                                ],
+                              ),
+                            ),
+                          ],
+                        ),
+                      ),
+
+                      Positioned(
+                        top: 20,
+                        right: 20,
+                        child: Icon(Icons.favorite_border, size: 23),
+                      ),
+                    ],
+                  ),
+                  Stack(
+                    children: [
+                      Card(
+                        child: Column(
+                          children: [
+                            Image.asset(width: 100, height: 100, "train.jpg"),
+                            Padding(
+                              padding: const EdgeInsets.all(8.0),
+                              child: Column(
+                                crossAxisAlignment: CrossAxisAlignment.start,
+
+                                children: [
+                                  Text("Bangladesh railway"),
+                                  Text("publice train"),
+                                  Text("dinaj to dhaka"),
+                                  Row(
+                                    mainAxisSize: MainAxisSize.min,
+                                    spacing: 110,
+                                    // mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                    children: [
+                                      Text("price\$2, "),
+                                      Icon(Icons.hide_source),
+                                    ],
+                                  ),
+                                ],
+                              ),
+                            ),
+                          ],
+                        ),
+                      ),
+
+                      Positioned(
+                        top: 20,
+                        right: 20,
+                        child: Icon(Icons.favorite_border, size: 23),
+                      ),
+                    ],
+                  ),
+                ],
+              ),Row(
+                children: [
+                  Stack(
+                    children: [
+                      Card(
+                        child: Column(
+                          children: [
+                            Image.asset(width: 100, height: 100, "train.jpg"),
+                            Padding(
+                              padding: const EdgeInsets.all(8.0),
+                              child: Column(
+                                crossAxisAlignment: CrossAxisAlignment.start,
+
+                                children: [
+                                  Text("Bangladesh railway"),
+                                  Text("publice train"),
+                                  Text("dinaj to dhaka"),
+                                  Row(
+                                    mainAxisSize: MainAxisSize.min,
+                                    spacing: 110,
+                                    // mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                    children: [
+                                      Text("price\$2, "),
+                                      Icon(Icons.hide_source),
+                                    ],
+                                  ),
+                                ],
+                              ),
+                            ),
+                          ],
+                        ),
+                      ),
+
+                      Positioned(
+                        top: 20,
+                        right: 20,
+                        child: Icon(Icons.favorite_border, size: 23),
+                      ),
+                    ],
+                  ),
+                  Stack(
+                    children: [
+                      Card(
+                        child: Column(
+                          children: [
+                            Image.asset(width: 100, height: 100, "train.jpg"),
+                            Padding(
+                              padding: const EdgeInsets.all(8.0),
+                              child: Column(
+                                crossAxisAlignment: CrossAxisAlignment.start,
+
+                                children: [
+                                  Text("Bangladesh railway"),
+                                  Text("publice train"),
+                                  Text("dinaj to dhaka"),
+                                  Row(
+                                    mainAxisSize: MainAxisSize.min,
+                                    spacing: 110,
+                                    // mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                    children: [
+                                      Text("price\$2, "),
+                                      Icon(Icons.hide_source),
+                                    ],
+                                  ),
+                                ],
+                              ),
+                            ),
+                          ],
+                        ),
+                      ),
+
+                      Positioned(
+                        top: 20,
+                        right: 20,
+                        child: Icon(Icons.favorite_border, size: 23),
+                      ),
+                    ],
+                  ),
+                ],
+              ),Row(
+                children: [
+                  Stack(
+                    children: [
+                      Card(
+                        child: Column(
+                          children: [
+                            Image.asset(width: 100, height: 100, "train.jpg"),
+                            Padding(
+                              padding: const EdgeInsets.all(8.0),
+                              child: Column(
+                                crossAxisAlignment: CrossAxisAlignment.start,
+
+                                children: [
+                                  Text("Bangladesh railway"),
+                                  Text("publice train"),
+                                  Text("dinaj to dhaka"),
+                                  Row(
+                                    mainAxisSize: MainAxisSize.min,
+                                    spacing: 110,
+                                    // mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                    children: [
+                                      Text("price\$2, "),
+                                      Icon(Icons.hide_source),
+                                    ],
+                                  ),
+                                ],
+                              ),
+                            ),
+                          ],
+                        ),
+                      ),
+
+                      Positioned(
+                        top: 20,
+                        right: 20,
+                        child: Icon(Icons.favorite_border, size: 23),
+                      ),
+                    ],
+                  ),
+                  Stack(
+                    children: [
+                      Card(
+                        child: Column(
+                          children: [
+                            Image.asset(width: 100, height: 100, "train.jpg"),
+                            Padding(
+                              padding: const EdgeInsets.all(8.0),
+                              child: Column(
+                                crossAxisAlignment: CrossAxisAlignment.start,
+
+                                children: [
+                                  Text("Bangladesh railway"),
+                                  Text("publice train"),
+                                  Text("dinaj to dhaka"),
+                                  Row(
+                                    mainAxisSize: MainAxisSize.min,
+                                    spacing: 110,
+                                    // mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                    children: [
+                                      Text("price\$2, "),
+                                      Icon(Icons.hide_source),
+                                    ],
+                                  ),
+                                ],
+                              ),
+                            ),
+                          ],
+                        ),
+                      ),
+
+                      Positioned(
+                        top: 20,
+                        right: 20,
+                        child: Icon(Icons.favorite_border, size: 23),
+                      ),
+                    ],
+                  ),
+                ],
+              ),
+
+
+
+
             ],
           ),
         ),
