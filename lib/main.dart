@@ -20,7 +20,7 @@ void main() {
           ),
           actions: [Icon(Icons.tune), SizedBox(width: 20)],
         ),
-        body: SingleChildScrollView(
+      /* body: SingleChildScrollView(
           child: Column(
             spacing: 10,
 
@@ -1499,6 +1499,30 @@ void main() {
 
             ],
           ),
+        ),*/
+        body: Row(
+          children: [
+
+            Divider(color: Colors.red,),
+            Divider(color: Colors.white,),
+            Divider(color: Colors.green,),
+            Divider(color: Colors.tealAccent,),
+
+            Expanded(
+                flex:3,
+                child: Container(height: 100,width: 100,color: Colors.red,)),
+            Flexible(
+                flex: 3,
+                child: Container(height: 10,width: 10,color: Colors.black,)),
+            Expanded(
+                flex:3,
+                child: Container(height: 60,width: 50,color: Colors.blue,)),
+            Expanded(
+                flex:3,
+                child: Container(height: 100,width: 100,color: Colors.orange,)),
+
+
+          ],
         ),
       ),
     ),
